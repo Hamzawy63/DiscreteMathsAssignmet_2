@@ -1,6 +1,6 @@
 public class Main {
 
-   static Exponentiation exponentiation = new Exponentiation();
+   static FastExponentiation fastExponentiation = new FastExponentiation();
     static ExtendedEuclidean extendedEuclidean = new ExtendedEuclidean();
     public static void main(String[] args) {
         extendedEuclidean.extendedEuclidean(10,5);
