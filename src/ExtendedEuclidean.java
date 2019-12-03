@@ -1,3 +1,5 @@
+import org.jcp.xml.dsig.internal.dom.DOMSubTreeData;
+
 public class ExtendedEuclidean {
 
 
@@ -48,5 +50,20 @@ public class ExtendedEuclidean {
         }
 
     }
+    public long getMultiplicativeInverse(long num , long mod){
+           long mux = getBezoutCoeff(num , mod).a;
+           if(mux<0)
+               mux+=mod;
+           return mux;
+    }
+
+    //test :)
+//    public static void main(String[] args) {
+//        ExtendedEuclidean extendedEuclidean = new ExtendedEuclidean();
+//        System.out.println(extendedEuclidean.getMultiplicativeInverse(10,13));
+//
+//    }
+
+
 
 }
