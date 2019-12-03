@@ -37,7 +37,8 @@ public class ExtendedEuclidean {
 
     }
 
-    private class Pair{
+    private class Pair {
+
         long a ;
         long b ;
 
@@ -45,7 +46,7 @@ public class ExtendedEuclidean {
             this.a = a;
             this.b = b;
         }
-    }
 
+    }
 
 }
